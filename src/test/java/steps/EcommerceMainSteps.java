@@ -3,19 +3,19 @@ package steps;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
 import org.junit.Assert;
-import pages.EcommerceMainPage;
+import pages.RegisterMainPage;
 
 public class EcommerceMainSteps {
 
     @E("pesquiso o produto \"(.*)\"")
     public void pesquisarProduto(String produto){
-        EcommerceMainPage ecommerceMainPage = new EcommerceMainPage();
-        ecommerceMainPage.pesquisarProduto(produto);
+        RegisterMainPage registerMainPage = new RegisterMainPage();
+        registerMainPage.pesquisarProduto(produto);
     }
 
     @Entao("a pesquisa deve retornar resultados")
     public void validarQuePesquisaRetornouResultados(){
-        EcommerceMainPage ecommerceMainPage = new EcommerceMainPage();
-        Assert.assertTrue("O resultado da pesquisa está vazio.", ecommerceMainPage.isPesquisaRetornouResultados());
+        RegisterMainPage registerMainPage = new RegisterMainPage();
+        Assert.assertTrue("O resultado da pesquisa está vazio.", registerMainPage.isPesquisaRetornouResultados());
     }
 }

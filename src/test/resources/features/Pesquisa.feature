@@ -4,7 +4,7 @@
 Funcionalidade: Pesquisa
 
   Contexto:
-    Dado que acesso o ecommerce
+    Dado que acesso o automationtesting
 
   @run
   Cenario: Pesquisar produto
