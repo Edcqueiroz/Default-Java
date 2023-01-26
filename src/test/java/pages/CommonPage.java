@@ -7,11 +7,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import util.TestRule;
 
-public class RegisterPage {
+public class CommonPage {
 
     protected WebDriver driver = TestRule.getDriver();
 
-    public RegisterPage(){}
+    public CommonPage(){}
 
     //actions example
     protected void moveToElement(WebElement element){

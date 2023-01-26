@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class RegisterMainPageElementMap extends RegisterPage {
+public class RegisterMainPageElementMap extends CommonPage {
 
     @FindBy(id = "search_query_top")
     protected WebElement txtPesquisarProduto;
