@@ -12,7 +12,7 @@ public class CommonSteps {
     }
 
     @Dado("que acesso o register")
-    public void acessarregiter(){
+    public void acessarRegiter(){
         String Register = "https://demo.automationtesting.in/Register.html";
         TestRule.abrirNavegador(Register);
     }
