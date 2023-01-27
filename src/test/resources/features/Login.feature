@@ -9,7 +9,7 @@ Funcionalidade: Login
   @run
   Cenario: Login com sucesso
     Quando clico no link "SignIn"
-    E preencho email e senha
+    E preencho email e senha válidos
     E clico no botão SignIn
     Então valido login com sucesso
 

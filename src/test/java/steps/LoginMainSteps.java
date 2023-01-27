@@ -15,9 +15,8 @@ public class LoginMainSteps {
     public void clicoSignIn(){
         login.clicarBtnSignIn();
     }
-
-    @E("^preencho email e senha$")
-    public void preenchoEmailESenha() {
+    @E("^preencho email e senha válidos$")
+    public void preenchoEmailESenhaVálidos() {
         login.preencherDadosDeLoginValidos();
     }
     @E("^clico no botão SignIn$")
@@ -42,4 +41,5 @@ public class LoginMainSteps {
         login.validoMsgDeErro();
 
     }
+
 }

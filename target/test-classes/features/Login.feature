@@ -4,12 +4,12 @@
 Funcionalidade: Login
 
   Contexto:
-    Dado que acesso o login do careers
+    Dado que acesso careers
 
   @run
   Cenario: Login com sucesso
     Quando clico no link "SignIn"
-    E preencho email e senha
+    E preencho email e senha válidos
     E clico no botão SignIn
     Então valido login com sucesso
 
@@ -17,4 +17,3 @@ Funcionalidade: Login
     Quando clico no link "SignIn"
     E preencho email e senha inválidos
     E clico no botão SignIn
-    Então valido mensagem de erro
