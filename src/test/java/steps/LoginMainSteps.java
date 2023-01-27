@@ -25,7 +25,7 @@ public class LoginMainSteps {
 
     }
 
-    @Então("^valido login com sucesso$")
+    @Entao("^valido login com sucesso$")
     public void validoLoginComSucesso() {
         login.validoLogin();
 
@@ -36,7 +36,7 @@ public class LoginMainSteps {
         login.preencherDadosDeLoginInvalidos();
     }
 
-    @Então("^valido mensagem de erro$")
+    @Entao("^valido mensagem de erro$")
     public void validoMensagemDeErro() {
         login.validoMsgDeErro();
 

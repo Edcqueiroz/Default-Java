@@ -11,7 +11,7 @@ Funcionalidade: Login
     Quando clico no link "SignIn"
     E preencho email e senha válidos
     E clico no botão SignIn
-    Então valido login com sucesso
+    Entao valido login com sucesso
 
   Cenario: Login com dados inválidos
     Quando clico no link "SignIn"
