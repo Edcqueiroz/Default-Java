@@ -5,15 +5,9 @@ import util.TestRule;
 
 public class CommonSteps {
 
-    @Dado("que acesso o login do automationtesting")
-    public void acessarAutomationTesting(){
-        String Register = "https://demo.automationtesting.in/SignIn.html";
-        TestRule.abrirNavegador(Register);
-    }
-
-    @Dado("que acesso o register")
-    public void acessarRegiter(){
-        String Register = "https://demo.automationtesting.in/Register.html";
-        TestRule.abrirNavegador(Register);
+    @Dado("que acesso o login do careers")
+    public void acessarCareers(){
+        String myCareers = "https://careers.ey.com/ey";
+        TestRule.abrirNavegador(myCareers);
     }
 }
