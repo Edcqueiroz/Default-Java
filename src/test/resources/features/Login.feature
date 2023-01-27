@@ -17,3 +17,4 @@ Funcionalidade: Login
     Quando clico no link "SignIn"
     E preencho email e senha inválidos
     E clico no botão SignIn
+    Entao valido mensagem de erro
