@@ -42,7 +42,7 @@ public class TestRule extends TestWatcher {
 
     public static void abrirNavegador(String url){
         ChromeOptions chromeOpts = new ChromeOptions();
-        chromeOpts.addArguments("start-maximized");
+        chromeOpts.addArguments("start-maximized","--headless", "--window-size=1920,1200","--ignore-certificate-errors");
         Utils.setDriverByOS();
 
         driver = new ChromeDriver(chromeOpts);
