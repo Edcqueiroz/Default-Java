@@ -4,7 +4,7 @@
 Funcionalidade: Login
 
   Contexto:
-    Dado que acesso o login do careers
+    Dado que acesso careers
 
   @run
   Cenario: Login com sucesso
