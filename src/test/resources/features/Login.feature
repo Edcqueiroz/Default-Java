@@ -13,6 +13,7 @@ Funcionalidade: Login
     E clico no botão SignIn
     Entao valido login com sucesso
 
+    @run
   Cenario: Login com dados inválidos
     Quando clico no link "SignIn"
     E preencho email e senha inválidos

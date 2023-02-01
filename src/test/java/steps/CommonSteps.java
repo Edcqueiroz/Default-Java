@@ -8,6 +8,6 @@ public class CommonSteps {
     @Dado("que acesso careers")
     public void acessarCareers(){
         String myCareers = "https://careers.ey.com/ey";
-        TestRule.abrirNavegador(myCareers);
+        TestRule.abrirNavegadorDesktop(myCareers);
     }
 }
